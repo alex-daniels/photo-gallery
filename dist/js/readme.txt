@@ -1,0 +1,1 @@
+Standard folder for compile js assets

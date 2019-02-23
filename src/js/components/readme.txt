@@ -1,0 +1,1 @@
+Standard component folder for react components

@@ -1,0 +1,1 @@
+Standard folder for scss components
