@@ -8,11 +8,11 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   context: path.join(__dirname, 'src'),
   devtool: debug ? "inline-sourcemap" : false,
-  entry: "../src/js/app.js" ,
+  entry: "../src/js/index.js" ,
   output: {
     path: __dirname + "/dist/js/",
     filename: "app.min.js",
-    publicPath: '/'
+    publicPath: '/js/'
   },
   plugins: debug ? [] : [
     new webpack.optimize.DedupePlugin(),
