@@ -7,7 +7,7 @@ class Caption extends React.Component {
       <section className="caption">
         <div className="caption-content">
           <h3>Caption</h3>
-          <div>
+          <div className="content">
             If human is on laptop sit on the keyboard. Sniff sniff cat not kitten around for cats woo and eat the rubberband, purrrrrr so sit on human yet touch water with paw then recoil in horror. 
           </div>
         </div>

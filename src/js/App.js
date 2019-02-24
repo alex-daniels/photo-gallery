@@ -1,16 +1,17 @@
-import React, { Component } from 'react';
-import Routes from "./components/Routes/Routes";
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Menu from "./components/Menu/Menu";
+import Layout from "./components/Layout";
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
-      <div className="App">
+      <section className="app-wrapper">
         <h1>Photo Gallery Project</h1>
-        <Routes />
-        <Menu />
-      </div>
+        <Router>
+          <Route path="/" component={ Layout } />
+        </Router>
+      </section>
     );
   }
 }

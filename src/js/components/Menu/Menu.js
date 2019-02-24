@@ -1,20 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Link } from "react-router-dom";
 
 class Menu extends React.Component {
   render() {
     return (
       <nav className="nav">
         <h3>Menu</h3>
-        <div className="nav-item">
+        <Link to="/" className="nav-item">
           Nav item
-        </div>
-        <div className="nav-item">
+        </Link>
+        <Link to="/" className="nav-item">
           Nav item
-        </div>
-        <div className="nav-item">
+        </Link>
+        <Link to="/" className="nav-item">
           Nav item
-        </div>
+        </Link>
       </nav>
     );
   }

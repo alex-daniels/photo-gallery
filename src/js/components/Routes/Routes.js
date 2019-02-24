@@ -11,8 +11,8 @@ import Photo from "../Photo/Photo";
 const Routes = () => (
   <Router>
     <Switch>
-      <Route exact path="/" component={ Grid }/>
       <Route path="/photo" component={ Photo } />
+      <Route exact path="/" component={ Grid }/>
     </Switch>
   </Router>
 );
